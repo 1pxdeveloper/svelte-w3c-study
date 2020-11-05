@@ -1,0 +1,13 @@
+/node_modules/
+/public/build/
+.DS_Store
+.firebase
+*.log
+.idea/workspace.xml
+.idea/remon-waggle-svelte.iml
+.idea/remon-svelte.iml
+.idea/deployment.xml
+.idea/webServers.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/libraries/Google_App_Engine_SDK.xml
+coverage
