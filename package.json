@@ -4,9 +4,6 @@
     "build": "snowpack build",
     "test": "jest"
   },
-  "dependencies": {
-    "svelte": "^3.24.0"
-  },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "^1.9.2",
     "@snowpack/plugin-dotenv": "^2.0.4",
@@ -20,7 +17,9 @@
     "@types/snowpack-env": "^2.3.0",
     "jest": "^26.2.2",
     "snowpack": "^2.16.0",
+    "svelte": "^3.24.0",
     "svelte-preprocess": "^4.0.8",
+    "svelte-routing": "^1.4.2",
     "typescript": "^4.0.0"
   }
 }

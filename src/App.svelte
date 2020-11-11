@@ -1,5 +1,10 @@
 <script>
-import MemoryGame from "./story/MemoryGame.svelte"
+import {Router, Route} from "svelte-routing"
+import Home from "./pages/Home.svelte"
+import MemoryGame from "./pages/study/MemoryGame.svelte"
 </script>
 
-<MemoryGame/>
+<Router>
+  <Route path="/" component="{Home}"/>
+  <Route path="/study/memory-game" component="{MemoryGame}"/>
+</Router>
